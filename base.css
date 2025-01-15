@@ -14,6 +14,9 @@ body {
   line-height: 1.6;
   font-family: var(--font);
 }
+::selection{
+  background: var(--color-two);
+}
 /* Turn off a_underline and a:hover_underline */
 a {
   text-decoration: none;
