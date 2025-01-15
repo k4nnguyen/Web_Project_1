@@ -73,6 +73,7 @@
   border-radius: 20px;
   background-color: #fff;
   text-align: center;
+  cursor: pointer;
 }
 
 .section-two .inner-box .inner-icon {
@@ -133,4 +134,25 @@
   margin-top: 40px;
   opacity: 50%;
   font-size: 18px;
+}
+
+.section-five {
+  background-image: url(banner-2.png);
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  background-position: center center;
+  height: 60vh;
+  margin-top: 100px;
+}
+
+.section-five .inner-wrap {
+  color: #fff;
+  text-align: center;
+}
+.section-five .inner-desc {
+  font-size: 14px;
+  max-width: 500px;
+  margin: 0 auto;
 }
