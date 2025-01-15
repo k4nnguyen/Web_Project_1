@@ -1,0 +1,97 @@
+.header {
+  top: 40px;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+}
+.header .inner-main {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 30px;
+  border-radius: 40px;
+  background: #fff;
+}
+.header .inner-menu ul li {
+  margin-left: 45px;
+}
+.header .inner-menu ul li a {
+  color: var(--color-text);
+  font-weight: 500;
+  font-size: 13px;
+}
+.header .inner-logo img {
+  width: auto;
+  height: 35px;
+}
+
+.header .inner-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.header .inner-menu ul li a:hover {
+  color: var(--color-two);
+  transition: all 0.3s ease 0s;
+}
+.header .inner-menu ul li a.active {
+  color: var(--color-two);
+}
+
+.section-one {
+  display: flex;
+  background-image: url(banner.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  align-items: center;
+}
+.section-one .inner-wrap {
+  color: #fff;
+  text-align: center;
+  /* padding: 290px; */
+  max-width: 530px;
+  margin: 0 auto;
+}
+.section-one .inner-wrap .inner-title {
+  margin-bottom: 30px;
+  font-size: 36px;
+  line-height: 54px;
+}
+.section-one .inner-wrap .inner-desc {
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.section-two .inner-box {
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+  margin-top: -200px;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.section-two .inner-box .inner-icon {
+  display: inline-flex;
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  padding: 44px;
+  border-radius: 50%;
+}
+
+.section-two .inner-title {
+  margin-top: 30px;
+}
+
+.section-two .inner-desc {
+  font-size: 14px;
+  opacity: 40%;
+  margin-top: 20px;
+}

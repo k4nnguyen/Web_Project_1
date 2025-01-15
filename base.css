@@ -1,0 +1,53 @@
+/* Add font style */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+/* Basic color & font */
+:root {
+  --color-one: #8261ee;
+  --color-two: #ff589e;
+  --base-color: #FFFFFF
+  --color-text: #1e1e1e;
+  --font: "Raleway", serif;
+}
+/* Set up default body */
+body {
+  color: var(--color-text);
+  line-height: 1.6;
+  font-family: var(--font);
+}
+/* Turn off a_underline and a:hover_underline */
+a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+.inner-menu a:hover {
+  text-decoration: none;
+  color: var(--color-two);
+}
+
+/* Button */
+.button {
+  color: var(--base-color);
+  padding: 12px 20px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+.button:hover{
+  text-decoration: none;
+}
+.button-one{
+  background: var(--color-two);
+}
+.button-one:hover{
+  background-color: var(--color-one);
+  transition: all 0.3s ease-in-out 0s
+}
+.button-two{
+  background-color: var(--color-one);
+  transition: all 0.3s ease-in-out 0s
+}
+.button-two:hover{
+  background-color: var(--color-two);
+  transition: all 0.3s ease-in-out 0s
+}
+/* End Button */
