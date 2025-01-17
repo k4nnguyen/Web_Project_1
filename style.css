@@ -5,6 +5,7 @@
   position: fixed;
   z-index: 999;
 }
+
 .header .inner-main {
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   display: flex;
@@ -13,29 +14,33 @@
   border-radius: 40px;
   background: #fff;
 }
+
 .header .inner-menu ul li {
   margin-left: 45px;
 }
+
 .header .inner-menu ul li a {
   color: var(--color-text);
   font-weight: 500;
   font-size: 13px;
 }
+
 .header .inner-logo img {
   width: auto;
   height: 35px;
 }
-
 .header .inner-menu ul {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
 }
+
 .header .inner-menu ul li a:hover {
   color: var(--color-two);
   transition: all 0.3s ease 0s;
 }
+
 .header .inner-menu ul li a.active {
   color: var(--color-two);
 }
