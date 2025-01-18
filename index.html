@@ -11,10 +11,13 @@
       integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
       crossorigin="anonymous"
     />
+
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="base.css" />
     <title>Anng Website</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css" />
+    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
   </head>
   <body>
     <!-- Header (Nav bar) -->
@@ -69,7 +72,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-            <div class="inner-box">
+            <div class="inner-box wow bounceInLeft">
               <div class="inner-icon button-two">
                 <img src="icon-1.png" alt="" />
               </div>
@@ -78,7 +81,7 @@
             </div>
           </div>
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-            <div class="inner-box">
+            <div class="inner-box wow bounceInUp">
               <div class="inner-icon button-two">
                 <img src="icon-1.png" alt="" />
               </div>
@@ -87,7 +90,7 @@
             </div>
           </div>
           <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-            <div class="inner-box">
+            <div class="inner-box wow bounceInRight">
               <div class="inner-icon button-two">
                 <img src="icon-1.png" alt="" />
               </div>
@@ -103,8 +106,8 @@
     <div class="section-three">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-xl-6 col-lg-12">
-            <div class="inner-icon img-fluid">
+          <div class="col-xl-6 col-lg-12 wow bounceInUp">
+            <div class="inner-icon img-fluid wow slideInLeft">
               <img src="icon-2.png" alt="icon-2" />
             </div>
           </div>
@@ -148,7 +151,7 @@
             </div>
           </div>
           <div class="col-xl-6 col-lg-12">
-            <div class="inner-icon img-fluid">
+            <div class="inner-icon img-fluid wow bounceInRight">
               <img src="icon-3.png" alt="icon-2" />
             </div>
           </div>
@@ -230,6 +233,10 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://kit.fontawesome.com/4c0012046a.js" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
     <!-- End Bootstrap JS -->
   </body>
 </html>
