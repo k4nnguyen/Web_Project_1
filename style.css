@@ -73,7 +73,7 @@
 
 .section-two .inner-box {
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
-  margin-top: -200px;
+  margin-top: -180px;
   padding: 30px;
   border-radius: 20px;
   background-color: #fff;
@@ -82,8 +82,8 @@
   transition: all 0.3s ease-in-out 0s;
 }
 .section-two .inner-box:hover {
-  padding: 30px;
-  padding-top: 25px;
+  margin-top: -200px;
+  padding: 32px;
 }
 .section-two .inner-box .inner-icon {
   display: inline-flex;
