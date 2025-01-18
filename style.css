@@ -82,7 +82,8 @@
   transition: all 0.3s ease-in-out 0s;
 }
 .section-two .inner-box:hover {
-  padding: 50px;
+  padding: 30px;
+  padding-top: 25px;
 }
 .section-two .inner-box .inner-icon {
   display: inline-flex;
