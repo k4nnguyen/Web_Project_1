@@ -79,8 +79,11 @@
   background-color: #fff;
   text-align: center;
   cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
 }
-
+.section-two .inner-box:hover {
+  padding: 50px;
+}
 .section-two .inner-box .inner-icon {
   display: inline-flex;
   margin: 0 auto;
