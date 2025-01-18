@@ -178,20 +178,23 @@
   width: auto;
   text-align: center;
   background-color: #fff;
-  transition: all 0.3s ease 0s;
   cursor: pointer;
   position: relative;
   opacity: 0.999;
   margin-top: 50px;
+  transition: all 0.3s ease-in-out 0s;
 }
+
 .section-five .inner-box:hover {
-  top: -10px;
+  margin-top: -10px;
 }
+
 .section-five .inner-box .inner-title {
   margin-top: 20px;
   font-weight: 350;
   font-size: 18px;
 }
+
 .section-five .inner-box::before {
   content: "";
   position: absolute;

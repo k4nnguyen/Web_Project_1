@@ -4,7 +4,7 @@
 :root {
   --color-one: #8261ee;
   --color-two: #ff589e;
-  --base-color: #FFFFFF
+  --base-color: #ffffff;
   --color-text: #1e1e1e;
   --font: "Raleway", serif;
 }
@@ -14,13 +14,14 @@ body {
   line-height: 1.6;
   font-family: var(--font);
 }
-::selection{
+::selection {
   background: var(--color-two);
 }
 /* Turn off a_underline and a:hover_underline */
 a {
   text-decoration: none;
   color: var(--color-text);
+  transition: all 0.3s ease-in-out 0s;
 }
 
 .inner-menu a:hover {
@@ -35,23 +36,23 @@ a {
   border-radius: 20px;
   font-size: 13px;
 }
-.button:hover{
+.button:hover {
   text-decoration: none;
 }
-.button-one{
+.button-one {
   background: var(--color-two);
+  transition: all 0.3s ease-in-out 0s;
 }
-.button-one:hover{
+.button-one:hover {
   background-color: var(--color-one);
-  transition: all 0.3s ease-in-out 0s
 }
-.button-two{
-  background-color: var(--color-one);
-  transition: all 0.3s ease-in-out 0s
-}
-.button-two:hover{
-  background-color: var(--color-two);
-  transition: all 0.3s ease-in-out 0s
-}
-/* End Button */
 
+.button-two {
+  background-color: var(--color-one);
+  transition: all 0.3s ease-in-out 0s;
+}
+.button-two:hover {
+  background-color: var(--color-two);
+}
+
+/* End Button */
